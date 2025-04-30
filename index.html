@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Curriculum de Nubia</title>
+		<style type="text/css">
+			h1
+			{
+				font-family:"Algerian";
+				font-size:80px;
+				color:#1527F5;
+				text-align:center;
+			}
+			p1
+			{
+				font-family:"Calibri";
+				font-size:20px;
+				color:#FF3838;
+			}
+		</style>
+
+
+
+
+<style type="text/css">
+body {
+	background-color: #F5E6B9;
+}
+</style>
+</head>
+
+	<body>
+   		 <table width="1024" border="0" align="center" cellspacing="0">
+   		   <tr>
+   		     <td><img src="gif_2/BANER.gif" width="1200" height="480" alt="BANER_ESPAÑOL" /></td>
+	       </tr>
+    </table>
+   		 <h1>INICIAR SESION</h1>
+         <form name="login"align="center">
+       	   <p1> Usuario </p1>
+            <input type="text"name="nombre" align="center" />
+            <p1> Contraseña </p1>
+            <input type="password" name="clave"/>
+            <input type="button"onclick="check(this.form)" value="ACEPTAR" />
+         </form>
+  	  <script language="javascript">
+			function check(form)
+			{
+				if(form.nombre.value=="Nubia"&& form.clave.value=="NCBM4444")	
+					window.open('index_1.html')
+				else
+					alert("Error;contraceña o usuario incorrecto")
+			}
+		
+	</script>
+</body>
+</html>
